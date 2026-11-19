@@ -19,6 +19,15 @@ The research terminal will call `POST /api/research` when a backend exists; othe
 
 The next production step would be to replace these local states with Supabase Auth, Postgres, and Storage without redesigning the interface.
 
+## Current interactive experience
+
+- English is the default language; the `EN / हिंदी` control switches the main navigation, intro copy, help prompt, and quick-help labels into Hindi.
+- The sun/moon control switches between light and dark themes and remembers the choice in the browser.
+- The quick-help rail includes Money gone, Phone lost, Account hack, Fake profile, Threats, Other issue, and Data leak.
+- AI-harm cards flip on hover and remain keyboard/click accessible, revealing a field note with practical evidence and response guidance.
+- Country cards select into a structured comparison view and link to official reporting or cyber-safety resources.
+- The incident matcher accepts plain English, Hinglish, common typos, and aliases such as `phone stole`, `mobile chori`, and `UPI fraud`.
+
 ## What I need to take it to production
 
 1. The source repository or deployment access for the current Render app.
